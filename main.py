@@ -6,8 +6,6 @@ d = {}
 name = input('Your Name -> ')
 cnt = int(input('Number of questions'))
 
-users = ['name']
-
 c = 0
 s = list(list(f.readlines().split(';')))
 for i in range(0, cnt):
@@ -26,4 +24,5 @@ for i in range(0, cnt):
     else:
         print('Correct')
         c += 1
+        
 f.close()
